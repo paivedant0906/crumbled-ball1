@@ -40,7 +40,7 @@ function draw() {
 
 
   if(keyDown("up")){
-    Matter.Body.applyForce(Ball.body,Ball.body.position,{x:85,y:85})
+    Matter.Body.applyForce(Ball.body,Ball.body.position,{x:40,y:75})
   }
 
   background(0);
