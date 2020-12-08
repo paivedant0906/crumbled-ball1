@@ -43,7 +43,7 @@ function draw() {
     Matter.Body.applyForce(Ball.body,Ball.body.position,{x:40,y:-75})
   }
 
-  background(0);
+  background("white);
   
   drawSprites();
 
